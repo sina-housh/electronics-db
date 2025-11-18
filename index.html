@@ -27,7 +27,7 @@
 
   <script>
     // فایل JSON خودت را مشخص کن
-    fetch('data.json')
+    fetch('db.json')
       .then(response => {
         if (!response.ok) throw new Error('فایل JSON پیدا نشد');
         return response.json();
